@@ -1,0 +1,110 @@
+#newOrderMainContainer {
+    width:100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/background-pizza.jpg");
+    padding: 3rem 1rem 0rem 1rem;
+    box-sizing: border-box;
+}
+
+#secondContainer {
+    display: flex;
+    padding: 1rem 0;
+}
+
+#pizzasContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#orderContainer {
+    background-color: #F1F1F1;
+    padding: 1rem;
+}
+
+/* Pour les mobiles et les phablet */
+@media screen and (max-width: 767px) {
+    #secondContainer {
+        flex-direction: column;
+    }
+
+    #orderContainer {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+/* Pour les tablettes, les ordinateurs et les grands écrans */
+@media screen and (min-width: 768px) {
+    #pizzasContainer {
+        flex-basis: 64%;
+    }
+
+    #orderContainer {
+        flex-basis: 36%;
+    }
+}
+
+#orderTitle {
+    text-align: center;
+}
+
+#orderTotal {
+    width: 100%;
+    background-color: #BD332B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+#orderTotal span {
+    font-size: 1.4rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.showBtn {
+    width: 100%;
+    background-color: #2A6890;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem;
+    outline: none;
+    border:1px solid #44607A;
+}
+
+#modalCLoseBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #2A6890;
+    color: white;
+}

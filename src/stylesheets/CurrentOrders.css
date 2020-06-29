@@ -1,0 +1,87 @@
+#currentOrdersMainContainer {
+    width:100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/background-pizza.jpg");
+    padding: 3rem 1rem 0rem 1rem;
+    box-sizing: border-box;
+}
+
+#ordersContainer {
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    border-bottom:1pt solid black;
+}
+
+tr {
+    height: 3.5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.btnTd {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3.5rem;
+}
+
+.iconDiv {
+    padding: 0.2rem;
+}
+
+#editBtn {
+    background-color: #44607A;
+}
+
+#deleteBtn {
+    background-color: #CF4740;
+    cursor: pointer;
+}
+
+.icon {
+    color: white;
+    font-size: 2rem;
+}
+
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#modalBtnsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spanBtn {
+    cursor: pointer;
+    width: 50%;
+    color: white;
+    text-align: center;
+    line-height: 2rem;
+}
+
+#yesBtn {
+    background-color: #44607A;
+}
+
+#noBtn {
+    background-color: #CF4740;
+    margin-left:1rem;
+}

@@ -1,0 +1,25 @@
+#pizzaMainContainer {
+    background-color: #F1F1F1;
+    width: 25rem;
+    margin: 0 2rem 2rem 0;
+}
+
+#pizzaImg {
+    width: 100%;
+}
+
+#pizzaDetails {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+#pizzaName {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#pizzaPrice {
+    font-size: 1rem;
+}

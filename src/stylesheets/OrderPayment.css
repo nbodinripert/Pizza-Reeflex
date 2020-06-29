@@ -1,0 +1,38 @@
+#orderPaymentMainContainer {
+    width:100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/background-pizza.jpg");
+    padding: 3rem 1rem 0rem 1rem;
+    box-sizing: border-box;
+}
+
+.orderPaymentSecondContainer {
+    background-color: #C5C5C5;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+#selectOrderContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#selectOrderContainer span {
+    font-weight: bold;
+}
+
+#selectOrderContainer select {
+    margin-left: 1rem;
+}
+
+
+
+#orderDetailsContainer {
+
+}

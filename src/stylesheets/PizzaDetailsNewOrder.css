@@ -1,0 +1,29 @@
+#pizzaDetailsMainContainer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+#pizzaDetailsSecondContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.4rem;
+}
+
+#pizzaDetailsSecondContainer span {
+    font-size: 0.9rem;
+}
+
+.addRemoveIcon {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+#addIcon {
+    color: #39678B;
+}
+
+#removeIcon {
+    color: #A93B31;
+}

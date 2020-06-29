@@ -1,0 +1,25 @@
+:root {
+    --headerTextColor: #3E3E3E;
+}
+
+#mainAppContainer {
+    width:100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/background-pizza.jpg");
+    padding: 3rem 1rem 0rem 1rem;
+    box-sizing: border-box;
+}
+
+#menuContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Pour les mobiles et les phablet */
+@media only screen and (max-width: 767px) {
+    #menuContainer {
+        flex-direction: column;
+    }
+}
